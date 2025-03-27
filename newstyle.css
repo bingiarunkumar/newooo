@@ -1,0 +1,86 @@
+.container {
+  width: 480px;
+  height: 530px;
+  border: 1px solid gray;
+  padding: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+}
+.heading {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+.item-one {
+  width: 370px;
+  height: 80px;
+  margin-left: 40px;
+  border: 1px solid grey;
+}
+.new-one {
+  margin-left: 20px;
+}
+
+.p-1 {
+  font-size: 13px;
+  background-color: rgb(243, 137, 137);
+}
+.p-2 {
+  font-size: 16px;
+  margin-left: 150px;
+}
+.s-1 {
+  padding-left: 15px;
+}
+.s-2 {
+  padding-left: 28px;
+}
+
+.item-one:hover {
+  border-radius: 1px;
+  cursor: pointer;
+  height: 170px;
+  border-color: red;
+  border-width: 3px;
+}
+.new-one {
+  visibility: hidden;
+}
+.item-one:hover .new-one {
+  visibility: visible;
+}
+button {
+  background-color: rgb(236, 69, 97);
+  color: wheat;
+  padding: 5px;
+  text-align: center;
+  width: 370px;
+  margin-left: 40px;
+}
+.last-line {
+  margin-left: 150px;
+}
+.para-last {
+  margin-left: 40px;
+}
+
+.h-2 {
+  font-size: 19px;
+  margin-left: 20px;
+}
+.para-one {
+  margin-left: 28px;
+  margin-top: -10px;
+  font-size: 10px;
+}
+.lite-view {
+  font-size: 10px;
+  font-weight: 300;
+  margin-left: 200px;
+}
+.lite-v {
+  font-size: 10px;
+  font-weight: 300;
+  margin-left: 300px;
+  margin-top: -10px;
+}
